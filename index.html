@@ -29,16 +29,18 @@
   <div class="inicio-pag" id="inicio">
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <h1 class="navbar-brand">Pardosera/Inicio</h1>>
+          <!-- Manu hamburguesa -->
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <!-- Navegador -->
           <div class="navbar-collapse collapse" id="navbarNavAltMarkup" style="">
-            <div class="navbar-nav m-auto">
+            <div class="navbar-nav m-auto navegador">
               <a class="nav-link" href="index.html">Inicio</a>
               <a class="nav-link" href="./pages/productos.html">Productos</a>
               <a class="nav-link" href="./pages/personalizados.html">Art. Personalizados</a>
@@ -49,10 +51,10 @@
         </div>
       </nav>
     </header>
-    ^
-    <main>
-      <div>
-        <img src="./assets/img/galeria/logo.jpg" alt="logo">
+
+    <main class="main-index">
+      <div class="d-flex  align-items-center justify-content-around">
+        <img src="./assets/img/galeria/logo.jpg" alt="logo" class="logo">
         <h2 class="h2-main">Artículos sublimados</h2>
       </div>
 
@@ -112,34 +114,28 @@
       </div>
     </main>
 
-    <footer>
-      <div class="red-contacto">
-  
-        <h3>Visitanos</h3>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9686427117763!2d-58.42960868565686!3d-34.57965998046572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59ae587faaf%3A0x965823d3766b6a62!2sPalermo!5e0!3m2!1ses-419!2sar!4v1648751705188!5m2!1ses-419!2sar"
-          width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade" class="mapita">
-        </iframe>
-      </div>
-  
-      <div class="red-contacto">
-  
-        <a href="https://facebook.com/pardosera/" target="_blank"><img src="./assets/img/icono-facebook.png" alt=""
-            class=" img-contacto"></a>
-        <a href="https://www.instagram.com/pardosera/" target="_blank"><img src="./assets/img/icono-instagram.PNG" alt=""
-            class="img-contacto"></a>
-        <a href="mailto:pardoserasubli@gmail.com"><img src="./assets/img/icono-email.png" alt=""
-            class="img-contacto"></a>
-        <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="./assets/img/icono-ws.PNG" alt=""
-            class="img-contacto"></a>
-  
-      </div>
-  
-      <div class="diseñador">
-        <a href="#inicio">Entrega: Monzon Mauricio - Desarrollo Web</a>
+    <footer class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <div class="red-contacto d-flex d-flex justify-content-around">
+
+            <a href="https://facebook.com/pardosera/" target="_blank"><img src="./assets/img/icono-facebook.png" alt=""
+                class=" img-contacto"></a>
+            <a href="https://www.instagram.com/pardosera/" target="_blank"><img src="./assets/img/icono-instagram.PNG"
+                alt="" class="img-contacto"></a>
+            <a href="mailto:pardoserasubli@gmail.com"><img src="./assets/img/icono-email.png" alt=""
+                class="img-contacto"></a>
+            <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="./assets/img/icono-ws.PNG" alt=""
+                class="img-contacto"></a>
+          </div>
+        </div>
+        <div class="diseñador">
+          <a href="#inicio">Entrega: Monzon Mauricio - Desarrollo Web</a>
+        </div>
       </div>
     </footer>
+
 
 
   </div>

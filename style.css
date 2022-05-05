@@ -1,7 +1,41 @@
+/* Estilos generales */
+
 nav{
     background-color: rgb(25, 32, 24);
 }
 
 .main-contacto{
     display: grid;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.main-index{
+    padding: .5rem;
+}
+
+/* Footer */
+
+.red-contacto iframe{
+    width: 100%;
+}
+.img-contacto{
+    width: 70px;
+    height: 70px;
+}
+
+.container{
+    background-color: brown !important;
+}
+
+/* .nav-link{
+    padding: 0rem 2rem !important;
+} */
+
+.navegador{
+    display: flex;
+    justify-content: space-between !important;
 }
