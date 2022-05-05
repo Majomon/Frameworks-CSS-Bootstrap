@@ -1,3 +1,7 @@
 nav{
     background-color: rgb(25, 32, 24);
 }
+
+.main-contacto{
+    display: grid;
+}
