@@ -28,15 +28,16 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"> <img src="public/LGOTRANSPARENTE.png" width="50px"
-            alt="">Pardosera/Contacto</a>
+        <h1 class="navbar-brand">Pardosera/contacto</h1>
+        <!-- Manu hamburguesa -->
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse" id="navbarNavAltMarkup" style="">
-          <div class="navbar-nav m-auto">
+        <!-- Navegador -->
+        <div class="navbar-collapse collapse justify-content-end" id="navbarNavAltMarkup" style="">
+          <div class="navbar-nav navegador">
             <a class="nav-link" href="../index.html">Inicio</a>
             <a class="nav-link" href="productos.html">Productos</a>
             <a class="nav-link" href="personalizados.html">Art. Personalizados</a>
@@ -49,55 +50,56 @@
   </header>
 
   <main class="main-contacto">
-    <div class="form-container">
-      <form action="">
-          <div class="form-field">
-              <label for="mail">Mail:</label>
-              <input type="text" name="mail">     
-          </div>
+    <form class="p-1 d-flex flex-column justify-content-center align-items-center pb-5">
 
-          <div class="form-field">
-              <label for="asunto">Asunto: </label>
-              <input type="text" name="asunto">
-          </div>
+      <h2>Contactanos</h2>
 
-          <div class="form-field">
-              <label for="mensaje">Mensaje: </label>
-              <textarea name="mensaje" cols="30" rows="10"></textarea>
-          </div>
-          <button type="submit">Enviar!</button>
-      </form>
-  </div>
+      <div class="mb-2">
+        <label for="" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="" aria-describedby="">
+      </div>
+      <div class="mb-2">
+        <label for="" class="form-label">Email</label>
+        <input type="email" class="form-control" id="">
+      </div>
+      <div class="mb-2">
+        <label for="" class="form-label">Comentarios</label>
+        <textarea class="field" name="" id="" cols="25" rows="3"></textarea>
+      </div>
+      <div class="mb-2">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+      <p>Formulario de prueba</p>
+
+    </form>
+    </div>
   </main>
 
   <footer>
-    <div class="red-contacto">
-
-      <h3>Visitanos</h3>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9686427117763!2d-58.42960868565686!3d-34.57965998046572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59ae587faaf%3A0x965823d3766b6a62!2sPalermo!5e0!3m2!1ses-419!2sar!4v1648751705188!5m2!1ses-419!2sar"
-        width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" class="mapita">
-      </iframe>
+    <div class="container-fluid footer-container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-4 col-lg-2 footer-network-info d-flex justify-content-center">
+          <a href="https://facebook.com/pardosera/">
+            <img src="../assets/img/icono-facebook.png" alt="Facebook logo">
+          </a>
+        </div>
+        <div class="col-4 col-lg-2 footer-network-info d-flex justify-content-center">
+          <a href="https://www.instagram.com/pardosera/">
+            <img src="../assets/img/icono-instagram.PNG" alt="Instagram logo">
+          </a>
+        </div>
+        <div class="col-4 col-lg-2 footer-network-info d-flex justify-content-center">
+          <a href="https://web.whatsapp.com/">
+            <img src="../assets/img/icono-ws.PNG" alt="WhatsApp logo">
+          </a>
+        </div>
+      </div>
     </div>
-
-    <div class="red-contacto">
-
-      <a href="https://facebook.com/pardosera/" target="_blank"><img src="../assets/img/icono-facebook.png" alt=""
-          class=" img-contacto"></a>
-      <a href="https://www.instagram.com/pardosera/" target="_blank"><img src="../assets/img/icono-instagram.PNG" alt=""
-          class="img-contacto"></a>
-      <a href="mailto:pardoserasubli@gmail.com"><img src="../assets/img/icono-email.png" alt=""
-          class="img-contacto"></a>
-      <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="../assets/img/icono-ws.PNG" alt=""
-          class="img-contacto"></a>
-
-    </div>
-
     <div class="diseñador">
       <a href="#inicio">Entrega: Monzon Mauricio - Desarrollo Web</a>
     </div>
   </footer>
+
 
 
 

@@ -1,41 +1,86 @@
 /* Estilos generales */
 
-nav{
-    background-color: rgb(25, 32, 24);
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.main-contacto{
-    display: grid;
+
+h1{
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+    font-size: 20px;
 }
 
-.logo{
+.h2-main{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 40px;
+}
+nav {
+    background-color: rgb(93, 196, 80);
+}
+
+.logo-y-titulo {
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    padding-bottom: 1rem;
+}
+
+.logo {
     width: 150px;
     height: 150px;
 }
 
-.main-index{
+.main-index {
     padding: .5rem;
 }
 
+
 /* Footer */
 
-.red-contacto iframe{
-    width: 100%;
+footer {
+    border-top: solid 15px orange;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(152, 233, 244, 1) 0%, rgba(84, 240, 199, 1) 48%, rgba(100, 250, 168, 1) 100%, rgba(0, 209, 251, 1) 100%);
 }
-.img-contacto{
+
+.img-contacto {
     width: 70px;
     height: 70px;
 }
 
-.container{
-    background-color: brown !important;
+
+.diseñador {
+    background-color: black;
+    text-align: center;
+    padding: .5rem 0rem;
 }
 
-/* .nav-link{
-    padding: 0rem 2rem !important;
-} */
+.diseñador a {
+    color: white;
+}
 
-.navegador{
-    display: flex;
-    justify-content: space-between !important;
+
+
+/* Contacto.html */
+.main-contacto {
+    display: grid;
+}
+
+
+/* Personalizados.html */
+
+.titulo-galeria{
+    text-align: center;
+    margin: 1rem;
+}
+
+.galeria{
+    width: 40vw;
+}
+
+/* Contacto.html */
+
+form .mb-2{
+    width: 15rem;
 }
